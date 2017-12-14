@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    
+    
+    <title>My Todo list app</title>
+    <link rel="icon" href="icons/icon.png">
+    <!--stylesheets-->
+    <link rel="stylesheet" type="text/css" href="reset.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+
+<body>
+    <header>
+        <input type="text" placeholder="Enter an activity..." id="item">
+        <button id="add">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.56 16.56"><defs></defs><title>Asset 1</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="fill" d="M16.56,8.28A1.17,1.17,0,0,1,15.4,9.44H9.45v5.95a1.17,1.17,0,0,1-2.33,0V9.44H1.17a1.17,1.17,0,1,1,0-2.33H7.12V1.17a1.17,1.17,0,0,1,2.33,0V7.11H15.4A1.17,1.17,0,0,1,16.56,8.28Z"/></g></g></svg>
+        </button>
+    </header>
+    
+    <div class="container">
+    <ul class="todo"  id="todo">
+    <!--    <li>
+            this is an item
+        <div class="buttons">
+         <button class="remove">
+             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.04 19.34"><defs></defs><title>Asset 4</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="fill" d="M1.08,17.19a2.15,2.15,0,0,0,2.14,2.14h8.6A2.15,2.15,0,0,0,14,17.19V4.3H1.08ZM15,1.08H11.28L10.21,0H4.84L3.76,1.08H0V3.22H15Zm0,0"/></g></g></svg>
+            </button>
+         <button class="complete">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.12 5.61"><defs></defs><title>Asset 6</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><polygon class="fill" points="8.12 0 7.56 0.59 3.01 5.39 2.81 5.61 0 2.94 0.62 2.24 2.75 4.27 8.12 0"/></g></g></svg>
+            </button>
+        </div>
+        </li>-->
+        </ul> 
+        <ul class="todo" id="completed">
+        
+        </ul>
+    
+    </div>
+    
+
+<!--js files-->
+    <script src="script.js"></script>
+</body>
+</html>
